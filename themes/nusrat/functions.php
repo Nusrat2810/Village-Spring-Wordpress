@@ -29,3 +29,31 @@ function nusrat_files()
     wp_enqueue_script('custom-js', get_theme_file_uri('assets/js/custom.min.js'));
 }
 add_action('wp_enqueue_scripts', 'nusrat_files');
+
+/*function pageBanner($args)
+{
+    $args['title'];
+    $args['photo'];
+    if (!$args['title']) {
+        $args['title'] = get_the_title();
+    }
+    if (!$args['photo']) {
+        if (get_field('page_banner_image')) {
+            $args['photo'] = get_field('page_banner_image')['sizes']['pageBanner'];
+        } else {
+            $args['photo'] = get_theme_file_uri('/images/ocean.jpg');
+        }
+    }
+?>
+    <div class="page-banner">
+        <?php $banner = get_field('page_banner_image'); ?>
+        <div class="page-banner__bg-image" style="background-image: url(<?php echo $args['photo']; ?> );"></div>
+        <div class="page-banner__content container container--narrow">
+            <h1 class="page-banner__title"><?php echo $args['title']; ?></h1>
+            <div class="page-banner__intro">
+                <p><?php echo $args['subtitle'] ?></p>
+            </div>
+        </div>
+    </div>
+
+<?php }*/

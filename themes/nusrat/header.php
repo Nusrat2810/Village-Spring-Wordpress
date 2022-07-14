@@ -5,7 +5,7 @@
 	<meta charset="<?php bloginfo('charset') ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="shortcut icon" href="<?php echo get_theme_file_uri('assets/img/favicons/favicon.ico') ?>">
@@ -18,7 +18,11 @@
 		<section id="carousel-banner" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100" src="<?php echo get_theme_file_uri('assets/img/home/banner.png') ?>" alt="...">
+					<!--<img class="d-block w-100" src="<?php //echo get_theme_file_uri('assets/img/home/banner.png') 
+														?>" alt="...">-->
+					<div class="d-block w-100">
+						<?php the_post_thumbnail(); ?>
+					</div>
 				</div>
 			</div>
 			<button class="carousel-control-prev d-none" type="button" data-bs-target="#carousel-banner" data-bs-slide="prev">
