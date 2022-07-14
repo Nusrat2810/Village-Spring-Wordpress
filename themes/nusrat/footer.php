@@ -2,7 +2,7 @@
     <div class="d-flex align-items-center">
         <div class="flex-grow-1">
             <p class="copyright text-xs-center m-0">
-                <span class="d-block text-uppercase">&copy; 2022 VILLAGE AT CLEAR SPRINGS</span>
+                <span class="d-block text-uppercase">&copy; <?php echo date('Y'); ?> VILLAGE AT CLEAR SPRINGS</span>
                 <span class="d-block">Website, plans, specification and content are subject to change during the rezoning process and are for illustrative purposes only. All Rights Reserved. Non-Discriminatory Policy. Village at Clear Springs does not and shall not discriminate on the basis of race, color, religion (creed), gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status in any of its activities or operations.</span>
             </p>
         </div>

@@ -5,12 +5,11 @@
 	<meta charset="<?php bloginfo('charset') ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="theme-color" content="#fff">
-	<meta name="application-name" content="frontend-workflow-webpack">
-	<meta name="msapplication-TileColor" content="#fff">
-	<meta name="msapplication-TileImage" content="assets/img/favicons/mstile-144x144.png">
-	<meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="shortcut icon" href="<?php echo get_theme_file_uri('assets/img/favicons/favicon.ico') ?>">
+
 	<?php wp_head(); ?>
 </head>
 
